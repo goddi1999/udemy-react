@@ -1,0 +1,35 @@
+.expense-item {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.expense-item div:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  color: #555;
+}
+
+.expense-item__description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.expense-item__description h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.expense-item__price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1abc9c;
+}
