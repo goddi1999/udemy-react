@@ -31,13 +31,13 @@ export const ExpenseForm = (props) => {
   const submitHandler = (e) => {
     e.preventDefault();
 
-    const expesneData = {
+    const expenseData = {
       title: enteredTitle,
       amount: enteredAmount,
       date: new Date(enteredDate),
     };
 
-    props.onSaveExpenseData(expesneData)
+    props.onSaveExpenseData(expenseData)
     setEnteredAmount("");
     setEnteredTitle("");
     setEnteredDate("")
