@@ -8,6 +8,7 @@ form {
     border-radius: 10px;
   }
   
+
   .new-expense__controls {
     display: flex;
     flex-direction: column;
@@ -21,6 +22,11 @@ form {
     align-items: center;
     width: 100%;
     margin-bottom: 10px;
+  }
+
+  .new-expense__actions {
+    display: flex;
+    gap: 1.3rem;
   }
   
   label {
@@ -69,3 +75,8 @@ form {
     transition: all 0.2s;
   }
   
+
+  .new-expense__button {
+    margin-inline: auto;
+    
+  }
